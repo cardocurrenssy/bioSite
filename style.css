@@ -1,0 +1,34 @@
+/*
+    Ricardo Orlando
+    Bellevue University
+    bioSite 06/17/23 CSS 
+    CSS document
+*/
+p{
+    margin: 0;
+    padding: 0;
+}
+#topStrip{
+    background-color: #0b0c10;
+    color: #FAF9F6;
+    padding: 1px;   
+}
+.topBar{
+    padding-left: 20%;
+    padding-top: 1px;
+}
+#navbar{
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C5C6C7;
+}
+#navbar a{
+    
+    float: left;
+    display: block;
+    color: #0B0C10;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
