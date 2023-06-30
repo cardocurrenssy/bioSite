@@ -4,31 +4,185 @@
     bioSite 06/17/23 CSS 
     CSS document
 */
-p{
+* {
     margin: 0;
     padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0, 0.5)), 
+    url("images/blkgradient.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.hero-image .hero-text{
+    color: #45a29e;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.lastname{
+    font-weight: 600;
+}
+.hero-name{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 10em;
+}
+.hero-message{
+    font-size: 2em;
+    font-family: 'Yuji Syuku', serif;
 }
 #topStrip{
     background-color: #0b0c10;
     color: #FAF9F6;
     padding: 1px;   
 }
+#topStrip p{
+    display: inline;
+    padding-right: 750px;
+}
 .topBar{
     padding-left: 20%;
     padding-top: 1px;
+}
+.social{
+    width: 33px;
+}
+.social2{
+    width: 30px;
+    padding-left: 5px;
+}
+.social:hover{
+    width: 35px;
+}
+.social2:hover{
+    width: 32px;
 }
 #navbar{
     margin-top: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #C5C6C7;
+    background-color: #FAF9F6;
+    text-align: center;
 }
 #navbar a{
-    
     float: left;
     display: block;
     color: #0B0C10;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+#navbar a:hover{
+    background-color: #45a29e;
+    color: #0B0C10;
+}
+.container{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    align-items: center;
+}
+.image-container{
+    margin: 0 auto;
+    width: 800px;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.image-container img{
+    max-width: 100%;
+}
+.info{
+    text-align: center;
+    padding-bottom: 20px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footerlink{
+    font-style: italic;
+    padding-right: 10px;
+    float: right;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+.footerlink:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #0B0C10;
+    bottom: 0;
+    width: auto;
+    padding: 10px;
+    left: 0;
+}
+footer p{
+    color: #45a29e;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px auto 500px auto;
+}
+.grid-title{
+    max-width: 500px;
+}
+.grid-title p{
+    text-indent: 40px;
+}
+.grid-image{
+    margin: 0 auto;
+}
+.lastname{
+    font-size: 4em;
+}
+.firstname{
+    padding-top: 40px;
+}
+.width{
+    height: 5px;
+    background-color: #45a29e;
+    border: none;
+}
+.grid-hobbies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 100px auto 500px auto;
+}
+.photo{
+    width: 500px;
+}
+.hobbies{
+    margin: 0 auto;
+    text-align: center;
+}
+.hobbies h4{
+    padding-top: 20px;
+    font-style: italic;
+    color: #45a29e;
+}
+.hobbiesHeader h3{
+    padding-top: 30px;
+    text-align: center;
+}
+.hobbie-text{
+    padding-top: 20px;
+    margin: 0px auto;
+    max-width: 400px;
 }
